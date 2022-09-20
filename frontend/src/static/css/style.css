@@ -1,0 +1,30 @@
+:root {
+	--main-bg-color: #e4002b;
+	--main-padding: 1rem;
+}
+*,
+:after,
+:before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none !important;
+}
+body {
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 400 !important;
+	font-size: 16px !important;
+	line-height: 19px !important;
+	color: #222025 !important;
+}
+body.fixed {
+	overflow-y: hidden;
+}
+
+h1 {
+	color: var(--main-bg-color);
+}
+
+.title.has-text-danger {
+	color: var(--main-bg-color) !important;
+}
