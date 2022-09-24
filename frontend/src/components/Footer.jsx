@@ -4,9 +4,9 @@ import { ImFacebook } from 'react-icons/im'
 
 export default function Footer() {
     return (
-        <div className='footer container footer-context'>
+        <div className='container footer-context'>
             <div className='footer_content is-flex is-flex-direction-column'>
-                <div className='is-flex is-justify-content-space-between mb-6'>
+                <div className='is-flex is-justify-content-space-between mb-6 is-clickable'>
                     <svg width="421" height="66" viewBox="0 0 421 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M387.672 48.5907C387.672 45.3456 390.958 44.6235 394.52 43.6324C396.711 43.0916 398.994 42.4632 400.913 41.1095V46.9682C399.086 49.9444 395.98 51.6576 391.873 51.6576C389.407 51.6576 387.672 50.4071 387.672 48.5907V48.5907ZM373.522 33.6189C377.72 30.7333 385.664 28.57 393.697 28.57C398.355 28.57 400.913 29.289 400.913 31.0929C400.913 33.7065 397.167 34.2473 390.781 35.329C381.102 37.0422 368.136 39.3932 368.136 51.1981C368.136 60.1205 373.705 65.0788 383.749 65.0788C390.781 65.0788 396.167 62.3746 400.916 57.2381V64.0065H421V34.0785C421 21.9985 411.14 14.3359 395.619 14.3359C386.855 14.3359 379.367 15.5052 373.525 17.581L373.522 33.6189Z" fill="#E4002B" />
                         <path d="M310.884 64.0046H331.61V42.8208L343.936 64.0046H368.497L350.234 35.968L368.586 15.3251H346.403L331.61 35.968V0H310.884V64.0046Z" fill="#E4002B" />
@@ -28,7 +28,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <h1 className='title'> Всё лучше и лучше</h1>
+                <h1 className='title allTheBest'> Всё лучше и лучше</h1>
 
                 <div className='is-flex footer_categories my-2'>
                     <p className='mr-3 hovering'>Каталог</p>
@@ -54,17 +54,17 @@ export default function Footer() {
                 <div className='my-6 py-6 is-flex is-justify-content-space-between'>
                     <div className='p-0 column is-5 is-flex is-justify-content-space-between'>
                         <div>
-                            <p className='is-clickable'>+998 (78) 140-14-14</p>
-                            <p>Колл - центр</p>
+                            <p className='is-clickable biger-p'>+998 (78) 140-14-14</p>
+                            <p className='smaller-p'>Колл - центр</p>
                         </div>
                         <div>
-                            <p className='is-clickable'>Политика конфиденциальности</p>
-                            <p>© Anglesey Food 1996-2022</p>
+                            <p className='is-clickable biger-p'>Политика конфиденциальности</p>
+                            <p className='smaller-p'>© Anglesey Food 1996-2022</p>
                         </div>
                     </div>
 
-                    <div>
-                        Дизайн —  <span className='is-clickable'>MAX</span>
+                    <div >
+                        <p className='biger-p'> Дизайн —  <span className='is-clickable biger-p designerOFsite'>MAX</span></p>
                     </div>
                 </div>
             </div>
