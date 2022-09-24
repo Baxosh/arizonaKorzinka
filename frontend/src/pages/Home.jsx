@@ -14,7 +14,6 @@ export default function Home() {
 					height="36"
 					viewBox="0 0 36 36"
 					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
 					data-v-1b85fca0=""
 				>
 					<path
@@ -30,10 +29,6 @@ export default function Home() {
 				</svg>
 			</div>
 
-			<img
-				src="https://korzinka.uz/_nuxt/img/banana.c6da2ee.png"
-				alt=""
-			/>
 		</div>
 	)
 }
