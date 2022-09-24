@@ -9,7 +9,6 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	outline: none !important;
 }
 
 body {
@@ -28,8 +27,86 @@ h1 {
 	color: var(--main-bg-color) !important;
 }
 
-.title.has-text-danger {
-	color: var(--main-bg-color) !important;
+.gif-error-page {
+	margin-top: -50px;
+	margin-right: 100px;
+	width: 300px !important;
+	height: 300px !important;
+	transform: rotate(-320deg);
+}
+
+/* ERRORPAGE */
+.number-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.number-box-four {
+	font-style: italic;
+	color: rgb(44, 39, 39);
+	font-size: 250px !important;
+	font-weight: 900 !important;
+	font-family: 'Calibri';
+}
+
+.round-circle {
+	background-color: rgba(130, 229, 166, 0.774);
+	width: 330px !important;
+	height: 230px !important;
+	border-radius: 50% !important;
+	transform: rotate(-40deg);
+
+.word-error-page {
+	font-style: italic;
+	font-weight: 650 !important;
+	font-size: 60px !important;
+	display: flex;
+	justify-content: center;
+	color: rgb(44, 39, 39);
+}
+
+.small-word {
+	font-size: 32px;
+	line-height: 37px;
+	color: rgb(44, 39, 39);
+	display: flex;
+	justify-content: center;
+	font-weight: 500 !important;
+}
+
+
+/* SERACH */
+
+::placeholder {
+	font-size: 25px;
+	font-weight: 550;
+}
+
+.search-button {
+	position: relative;
+	display: block;
+	height: 60px;
+	width: 130px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	background-color: #e4002b;
+	border-radius: 40px 20px;
+}
+
+.options {
+	font-size: 55px;
+	line-height: 60px;
+	text-align: center;
+	color: #DCDCDF
+}
+
+.search-options, .search-optionss{
+	font-weight: 700;
+}
+
+.search-options:hover{
+	color: #e4002b;
 }
 
 /* HEADER */
